@@ -33,8 +33,8 @@ function Login() {
          </div>
          <button type="submit">Login</button>
         </form>
-       <p>Name: {username}</p>
-       <p>Password: {password}</p>
+       {/* <p>Name: {username}</p>
+       <p>Password: {password}</p> */}
         {error && <p style={{ color: 'red' }}>{error}</p>}  
     </div>
   )

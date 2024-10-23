@@ -3,18 +3,11 @@ import {useState} from 'react'
 
 function Background() {
     const [color, setColor]= useState("white")
-    // const [textColor, setTextColor]= useState("black")
-
-    // const darkColors=['red', 'blue', 'purple'];
-    // if (darkColors.includes('')){
-    //   setTextColor('white');
-    // } else{
-    //   setTextColor('black');
-    // }
+    
   return (
     <>
     <div>
-    {/* <div style={{ padding: '20px', color: textColor}}> */}
+    
       <button onClick={()=>setColor ("red") } >Red</button>
       <button onClick={()=>setColor ("green") } >Green</button>
       <button onClick={()=>setColor ("blue") } >Blue</button>
