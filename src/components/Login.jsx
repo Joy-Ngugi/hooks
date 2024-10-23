@@ -6,11 +6,11 @@ function Login() {
     const [password, setPassword] = useState("");
     const [error, setError] = useState("");
 
-    const correctUsername = 'user'
-    const correctPassword ='password'
+    const correctUsername = 'Joy Ngugi'
+    const correctPassword ='2222'
 
     const handleLogin = (e) =>{
-         e.preventDefalt(); //prevent form submission
+         e.preventDefault(); //prevent form submission
 
         if (username ===correctUsername && password===correctPassword){
             setError('');
